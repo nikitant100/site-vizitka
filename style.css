@@ -2,24 +2,29 @@
     box-sizing: border-box;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  .container {
+}
+
+.container {
     max-width: 1080px;
     margin: 0 auto;
-  }
-  
-  /* HEADER */
-  .header {
+}
+
+
+/* HEADER */
+
+.header {
     background-color: #1A1A1A;
     padding-top: 36px;
     padding-bottom: 200px;
-  }
-  .navigation {
+}
+
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .logo {
+}
+
+.logo {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -30,28 +35,31 @@
     text-decoration: none;
     color: #1A1A1A;
     font-weight: bold;
-  }
-  .navigation-holder {
+}
+
+.navigation-holder {
     list-style-type: none;
     padding: 0;
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
-  }
-  .nav-links a {
+}
+
+.nav-links a {
     text-decoration: none;
     color: #D1D1D1;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 13px;
-  }
-  
-  .header-title {
+}
+
+.header-title {
     margin-top: 110px;
     margin-bottom: 80px;
     position: relative;
-  }
-  .header-subtitle-text {
+}
+
+.header-subtitle-text {
     display: inline-block;
     border-left: 1px solid #8C8C8C;
     padding: 8px 0 8px 20px;
@@ -61,16 +69,17 @@
     font-size: 13px;
     letter-spacing: 1.5px;
     margin-bottom: 13px;
-  }
-  .header-title-text {
+}
+
+.header-title-text {
     font-size: 90px;
     font-weight: bold;
     color: #fff;
     max-width: 620px;
     line-height: 1;
-  }
-  
-  .join {
+}
+
+.join {
     background-color: #FEBE02;
     position: absolute;
     right: 0;
@@ -86,4 +95,34 @@
     color: #1A1A1A;
     font-weight: bold;
     border-radius: 6px;
-  }
+}
+
+.header-info-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info {
+    max-width: 361px;
+}
+
+.card-info-img {
+    display: flex;
+}
+
+.info-title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+.info-subtitle {
+    display: block;
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}

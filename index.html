@@ -41,39 +41,53 @@
                     <span class="join-text">Join <br> The Class</span>
                 </a>
             </section>
-
+            <!-- Конец 2ой секции -->
             <section class="header-info-block">
+
                 <div class="card-info">
-                    <img class="card-info-img" src="/img/girl-avatar.png" alt="">
+                    <img src="/img/girl-avatar.png" alt="" class="card-info-img">
                     <h2 class="info-title">Karen William</h2>
                     <span class="info-subtitle">Senior Designer</span>
                 </div>
+
                 <div class="card-about">
-                <div class=" about-text-warper"></div>
-                <span class="about-subtitle-text">About</span>
-                <p  class="about-desc">
-                    quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in
-                </p>
-                </div>
+                    <div class="about-text-wrapper">
+                        <span class="about-subtitle-text">About</span>
+                        <p class="about-desc">
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        </p>
+                    </div>
 
-                <div class="auidio-block">
-                <img src="/img/man-avatar.png" alt="">
-                <div class="audiio-containe">
-                <img src="/img/audio.png" class="audio-track" alt="">
-                <a href="#" class="play-btn">
-                    <img src="/img/icons/play.svg" alt="">
-                </a>
+                    <div class="audio-holder">
+                        <div class="audio-block">
+                            <img src="/img/man-avatar.png" alt="">
+                            <div class="audio-container">
+                                <div class="audio-detail">
+                                    <div class="control">
+                                        <i class="fi-rr-play" id="playPause"></i>
+                                    </div>
+                                    <div id="wave"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="audio-author">
+                            <div>
+                                <h2 class="about-title">Testimonial</h2>
+                                <span class="about-subtitle">Tom Hope</span>
+                            </div>
+                            <div class="time">
+                                <span id="current">0:00</span>
+                                <span id="duration">0:00</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                </div>
-                
-                <h2 class="about-title"> Testionail</H2>
-                <span class="about-subtitle">Tom Hope</span>
             </section>
         </div>
     </header>
+
+    <script src="wavesurfer.js"></script>
+    <script src="media.js"></script>
 </body>
 
 </html>
